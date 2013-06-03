@@ -1,6 +1,6 @@
 DEPS = server-core,server-reg,server-storage
-VIRTUALENV = virtualenv
-PYTHON = bin/python
+PYTHON = `which python2 python | head -n 1`
+VIRTUALENV = virtualenv --python=$(PYTHON)
 NOSE = bin/nosetests -s --with-xunit
 TESTS = deps/server-core/services/tests deps/server-reg/syncreg/tests deps/server-storage/syncstorage/tests
 SERVER = dev-auth.services.mozilla.com
