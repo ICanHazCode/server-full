@@ -9,7 +9,7 @@ BUILDAPP = bin/buildapp
 BUILDRPMS = bin/buildrpms
 PYPI = http://pypi.python.org/simple
 PYPIOPTIONS = -i $(PYPI)
-CHANNEL = prod
+CHANNEL = dev
 INSTALL = bin/pip install
 INSTALLOPTIONS = -U -i $(PYPI)
 
