@@ -1,5 +1,6 @@
 cef
 WebOb == 1.0.7
+WebTest == 1.4.3
 Paste
 PasteDeploy
 PasteScript
@@ -9,6 +10,13 @@ Beaker
 python-memcached
 simplejson
 Routes
-SQLAlchemy
+SQLAlchemy <= 0.7.999
 WSGIProxy
 recaptcha-client
+repoze.lru
+repoze.who
+zope.deprecation
+zope.interface
+metlog-py >= 0.9.6
+metlog-cef
+scrypt
